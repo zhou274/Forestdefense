@@ -1,0 +1,1280 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.44f1c1 (0c301d0bd4e3) revision 798749'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'zh' Physical Memory: 65375 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.44f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+D:/Unity/TwistTheTunnel
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+55507
+Successfully changed project path to: D:/Unity/TwistTheTunnel
+D:/Unity/TwistTheTunnel
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [27268] Host "[IP] 192.168.31.197 [Port] 0 [Flags] 2 [Guid] 2410658503 [EditorId] 2410658503 [Version] 1048832 [Id] WindowsEditor(7,DS-202405191929) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [27268] Host "[IP] 192.168.31.197 [Port] 0 [Flags] 2 [Guid] 2410658503 [EditorId] 2410658503 [Version] 1048832 [Id] WindowsEditor(7,DS-202405191929) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+AS: AutoStreaming module initializing.
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 121.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.44f1c1 (0c301d0bd4e3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.44f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/TwistTheTunnel/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   NVIDIA
+    VRAM:     5969 MB
+    Driver:   31.0.15.4629
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.44f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.44f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.44f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56340
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.44f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.44f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.44f1c1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.44f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013720 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 327 ms
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 110.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.348 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1349ms)
+		BeginReloadAssembly (161ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1026ms)
+			LoadAssemblies (156ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (165ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (758ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (443ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (111ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (142ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.013120 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.201 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2202ms)
+		BeginReloadAssembly (215ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1811ms)
+			LoadAssemblies (152ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (430ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (1120ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (38ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (775ms)
+				ProcessInitializeOnLoadMethodAttributes (178ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4186 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (47.7 KB). Loaded Objects now: 4625.
+Memory consumption went from 144.3 MB to 144.3 MB.
+Total: 17.986900 ms (FindLiveObjects: 0.661300 ms CreateObjectMapping: 0.487700 ms MarkObjects: 16.648100 ms  DeleteObjects: 0.187600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4911.614859 seconds.
+  path: Assets/_FD/Sprite/Spell_And_Other_FX/Lighting Spell/4.png
+  artifactKey: Guid(31b04a78dd14e22448e096299af4939d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Spell_And_Other_FX/Lighting Spell/4.png using Guid(31b04a78dd14e22448e096299af4939d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e368b41fc9c529cda872c47c54f8b7d') in 0.229520 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.689907 seconds.
+  path: Assets/_FD/Sprite/Spell_And_Other_FX/CollisionFx/01/6.png
+  artifactKey: Guid(cd158c56767d3bf4a9b674c46272e999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Spell_And_Other_FX/CollisionFx/01/6.png using Guid(cd158c56767d3bf4a9b674c46272e999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '693ae3e213f9c433512f05e61b6fa6d8') in 0.031803 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.039410 seconds.
+  path: Assets/_FD/Sprite/UI/Heroes Icon/07.png
+  artifactKey: Guid(39013b64a880ec04ba36d0ac8304824f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/UI/Heroes Icon/07.png using Guid(39013b64a880ec04ba36d0ac8304824f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc3fa1173677494d20bdfdfa91cda18') in 0.019718 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.187863 seconds.
+  path: Assets/_FD/Sprite/Spell_And_Other_FX/Splash/7.png
+  artifactKey: Guid(838381d8f5830b3499e5e42b39edb79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Spell_And_Other_FX/Splash/7.png using Guid(838381d8f5830b3499e5e42b39edb79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9360193ca95ae0e72d327abb255216') in 0.025107 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.047040 seconds.
+  path: Assets/_FD/Sprite/UI/Heroes Icon/08.png
+  artifactKey: Guid(e2fe86e857023f044902ffe1aa10a306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/UI/Heroes Icon/08.png using Guid(e2fe86e857023f044902ffe1aa10a306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d5a6d523cefac9fee3f43cb8442ab31') in 0.013670 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.273290 seconds.
+  path: Assets/_FD/Sprite/UI/Heroes Icon/12.png
+  artifactKey: Guid(f39ae11be539f1248acda3f54b6587ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/UI/Heroes Icon/12.png using Guid(f39ae11be539f1248acda3f54b6587ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e828185c54b52efd516a8a85a2755c') in 0.022348 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.025604 seconds.
+  path: Assets/_FD/Sprite/UI/Heroes Icon/14.png
+  artifactKey: Guid(934303f388bbecc43a14b5016e5e92b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/UI/Heroes Icon/14.png using Guid(934303f388bbecc43a14b5016e5e92b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85ad7251888255211c3f1cbcdc754a5c') in 0.024407 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.826553 seconds.
+  path: Assets/_FD/Scene/Menu.unity
+  artifactKey: Guid(7eea44fbd5748f9448f126da3e1b30e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Scene/Menu.unity using Guid(7eea44fbd5748f9448f126da3e1b30e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d135fd4dbae025bc4265fdcbb8a634') in 0.001784 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 24.458575 seconds.
+  path: Assets/_FD/Sprite/UI/User interfaces/GoldBar.png
+  artifactKey: Guid(59617126fc6ea3944ace491889d2b84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/UI/User interfaces/GoldBar.png using Guid(59617126fc6ea3944ace491889d2b84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d0301f7de30452892d8d5864d2d29c') in 0.015978 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 20.176021 seconds.
+  path: Assets/_FD/Scene/Playing.unity
+  artifactKey: Guid(bcea18228e93b0f418dec5e54a0ad12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Scene/Playing.unity using Guid(bcea18228e93b0f418dec5e54a0ad12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7454296f39d71902e5ed5ae36e459d6f') in 0.001885 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 21.286346 seconds.
+  path: Assets/_FD/Prefab/MIAOZIDONGMANTI-REGULAR SDF.asset
+  artifactKey: Guid(27924b0b2da8b2a46b564b76aff4dde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Prefab/MIAOZIDONGMANTI-REGULAR SDF.asset using Guid(27924b0b2da8b2a46b564b76aff4dde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a73ca36c03cce8c9a44d55a738a25a26') in 0.108985 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 374.224172 seconds.
+  path: Assets/_FD/Script/GUI
+  artifactKey: Guid(2833074101b86944ebbc36a449fd04e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Script/GUI using Guid(2833074101b86944ebbc36a449fd04e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dc0d91b739192ce9d46e2a34f663da3') in 0.003660 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 15.268867 seconds.
+  path: Assets/_FD/Script/GUI/AddExpPanel.cs
+  artifactKey: Guid(8175d53592d2e2d4e97a0b190e9a25bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Script/GUI/AddExpPanel.cs using Guid(8175d53592d2e2d4e97a0b190e9a25bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e35563bd41ef86109311f61f36a71f') in 0.010990 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012263 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.164 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2165ms)
+		BeginReloadAssembly (256ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (1758ms)
+			LoadAssemblies (152ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (417ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (1103ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (37ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (769ms)
+				ProcessInitializeOnLoadMethodAttributes (190ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4167 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (23.0 KB). Loaded Objects now: 4686.
+Memory consumption went from 147.1 MB to 147.1 MB.
+Total: 9.031300 ms (FindLiveObjects: 0.631400 ms CreateObjectMapping: 0.491000 ms MarkObjects: 7.862500 ms  DeleteObjects: 0.044700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 32.287374 seconds.
+  path: Assets/_FD/Script/GUI/AddExpPanel.cs
+  artifactKey: Guid(8175d53592d2e2d4e97a0b190e9a25bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Script/GUI/AddExpPanel.cs using Guid(8175d53592d2e2d4e97a0b190e9a25bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dfca2a96e1df5b926027aa2bf3b1465') in 0.009542 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.673539 seconds.
+  path: Assets/_FD/Script/GUI/AddExpPanel.cs
+  artifactKey: Guid(8175d53592d2e2d4e97a0b190e9a25bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Script/GUI/AddExpPanel.cs using Guid(8175d53592d2e2d4e97a0b190e9a25bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40fdcb500aba0f5bd8a32f690de017e4') in 0.001343 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.527763 seconds.
+  path: Assets/_FD/Script/GUI/AddExpPanel.cs
+  artifactKey: Guid(8175d53592d2e2d4e97a0b190e9a25bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Script/GUI/AddExpPanel.cs using Guid(8175d53592d2e2d4e97a0b190e9a25bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec535fa0c40eee479d21cc8fec44063c') in 0.001521 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.097131 seconds.
+  path: Assets/_FD/Script/GUI/AddExpPanel.cs
+  artifactKey: Guid(8175d53592d2e2d4e97a0b190e9a25bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Script/GUI/AddExpPanel.cs using Guid(8175d53592d2e2d4e97a0b190e9a25bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1edff31844397b22f2257a4dcbbf35c3') in 0.001511 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.519570 seconds.
+  path: Assets/_FD/Script/GUI/AddExpPanel.cs
+  artifactKey: Guid(8175d53592d2e2d4e97a0b190e9a25bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Script/GUI/AddExpPanel.cs using Guid(8175d53592d2e2d4e97a0b190e9a25bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc0eb5d6bf8823cc5e9005260ed95f97') in 0.001493 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.721257 seconds.
+  path: Assets/_FD/Script/GUI/AddExpPanel.cs
+  artifactKey: Guid(8175d53592d2e2d4e97a0b190e9a25bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Script/GUI/AddExpPanel.cs using Guid(8175d53592d2e2d4e97a0b190e9a25bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b32d8c8723f9c65320f1daa887bd3e42') in 0.001470 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.819465 seconds.
+  path: Assets/_FD/Script/GUI/AddExpPanel.cs
+  artifactKey: Guid(8175d53592d2e2d4e97a0b190e9a25bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Script/GUI/AddExpPanel.cs using Guid(8175d53592d2e2d4e97a0b190e9a25bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5edee7372f237628bfa17fa9d6c6395') in 0.002622 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.168644 seconds.
+  path: Assets/_FD/Script/GUI/AddExpPanel.cs
+  artifactKey: Guid(8175d53592d2e2d4e97a0b190e9a25bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Script/GUI/AddExpPanel.cs using Guid(8175d53592d2e2d4e97a0b190e9a25bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000517 seconds  code(4) message(Build asset version error: assets/_fd/script/gui/addexppanel.cs in SourceAssetDB has modification time of '2025-01-06T04:46:30.3354024Z' while content on disk has modification time of '2025-01-06T04:46:30.5262928Z')
+  ERROR: Build asset version error: assets/_fd/script/gui/addexppanel.cs in SourceAssetDB has modification time of '2025-01-06T04:46:30.3354024Z' while content on disk has modification time of '2025-01-06T04:46:30.5262928Z'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 47.025133 seconds.
+  path: Assets/_FD/Script/GUI/AddExpPanel.cs
+  artifactKey: Guid(8175d53592d2e2d4e97a0b190e9a25bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Script/GUI/AddExpPanel.cs using Guid(8175d53592d2e2d4e97a0b190e9a25bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada0fbd5f7b2ad8e12899eae0716e54f') in 0.001724 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014455 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.133 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2134ms)
+		BeginReloadAssembly (232ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1754ms)
+			LoadAssemblies (163ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (455ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (1044ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (37ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (719ms)
+				ProcessInitializeOnLoadMethodAttributes (182ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4167 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (22.9 KB). Loaded Objects now: 4689.
+Memory consumption went from 147.1 MB to 147.1 MB.
+Total: 8.161500 ms (FindLiveObjects: 0.427800 ms CreateObjectMapping: 0.261500 ms MarkObjects: 7.441000 ms  DeleteObjects: 0.030100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012443 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.186 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2187ms)
+		BeginReloadAssembly (248ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (1779ms)
+			LoadAssemblies (168ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (415ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (1118ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (38ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (778ms)
+				ProcessInitializeOnLoadMethodAttributes (191ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4167 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (23.0 KB). Loaded Objects now: 4692.
+Memory consumption went from 147.1 MB to 147.1 MB.
+Total: 8.352500 ms (FindLiveObjects: 0.428000 ms CreateObjectMapping: 0.245100 ms MarkObjects: 7.645800 ms  DeleteObjects: 0.032700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014697 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.221 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2222ms)
+		BeginReloadAssembly (256ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (1801ms)
+			LoadAssemblies (166ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (471ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (1074ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (37ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (744ms)
+				ProcessInitializeOnLoadMethodAttributes (186ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4167 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (23.0 KB). Loaded Objects now: 4695.
+Memory consumption went from 147.1 MB to 147.1 MB.
+Total: 9.322600 ms (FindLiveObjects: 0.472400 ms CreateObjectMapping: 0.278500 ms MarkObjects: 8.521900 ms  DeleteObjects: 0.048800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 233.692942 seconds.
+  path: Assets/_FD/Prefab/MIAOZIDONGMANTI-REGULAR SDF.asset
+  artifactKey: Guid(27924b0b2da8b2a46b564b76aff4dde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Prefab/MIAOZIDONGMANTI-REGULAR SDF.asset using Guid(27924b0b2da8b2a46b564b76aff4dde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e859785136fe6b445d2234091391b73c') in 0.176120 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 11.301213 seconds.
+  path: Assets/_FD/Scene/Playing.unity
+  artifactKey: Guid(bcea18228e93b0f418dec5e54a0ad12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Scene/Playing.unity using Guid(bcea18228e93b0f418dec5e54a0ad12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd477fd5a22120c22e5021544642ac4') in 0.001959 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.999903 seconds.
+  path: Assets/_FD/Sprite/Landing_Screen/Screen03/PlaygameBtn.png
+  artifactKey: Guid(ef946f64f4cf53b4184e2b5cc97893be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Landing_Screen/Screen03/PlaygameBtn.png using Guid(ef946f64f4cf53b4184e2b5cc97893be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664bb132028e955d2ccdcc5ddb598622') in 0.035164 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_FD/Sprite/UserInterfaces/PoisonArrowICon.png
+  artifactKey: Guid(f5eb013065c863543a42c34e3f3cdb5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/UserInterfaces/PoisonArrowICon.png using Guid(f5eb013065c863543a42c34e3f3cdb5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a870696fc16a3fe382b8239038320998') in 0.015376 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_FD/Sprite/Landing_Screen/Screen01/PlaygameBtn.png
+  artifactKey: Guid(c8563eab555c7d749b1a8fd8cc02f1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Landing_Screen/Screen01/PlaygameBtn.png using Guid(c8563eab555c7d749b1a8fd8cc02f1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b80701ad11a50eb5a80f2f56ff367a31') in 0.021877 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_FD/Sprite/UserInterfaces/PopUP_BG01.png
+  artifactKey: Guid(e3c28ef07c658aa4e8c46474bd2adfac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/UserInterfaces/PopUP_BG01.png using Guid(e3c28ef07c658aa4e8c46474bd2adfac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '785520546c4ca25b7eb7fde2fb74af1a') in 0.022841 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_FD/Sprite/UI/User interfaces/poison.psd
+  artifactKey: Guid(daba9fa943e6f88419c1a3f2928e4a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/UI/User interfaces/poison.psd using Guid(daba9fa943e6f88419c1a3f2928e4a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e64e83441c5a36ebb9deda2a2168976') in 0.020712 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_FD/Sprite/poison.psd
+  artifactKey: Guid(f3305853b3144c94e9db8d495e7f4aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/poison.psd using Guid(f3305853b3144c94e9db8d495e7f4aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f455a9680e61c6b7e1232fd08ef28e27') in 0.019113 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.554252 seconds.
+  path: Assets/_FD/Sprite/UserInterfaces/TopBar/PowerIcon.png
+  artifactKey: Guid(84513a2c7bd791e4c8780d8b365d9c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/UserInterfaces/TopBar/PowerIcon.png using Guid(84513a2c7bd791e4c8780d8b365d9c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5f81f4dc07f0fae9521cf0bbe843ade') in 0.015391 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001117 seconds.
+  path: Assets/_FD/Sprite/Landing_Screen/Screen02/QuitBtn.png
+  artifactKey: Guid(61fe11691f26f6146a9a81e710fe4396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Landing_Screen/Screen02/QuitBtn.png using Guid(61fe11691f26f6146a9a81e710fe4396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc2d4102310e960bd3c057d3b728705c') in 0.022965 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.038408 seconds.
+  path: Assets/_FD/Sprite/Landing_Screen/Screen04/QuitBtn.png
+  artifactKey: Guid(27765acff2700c5419a8d8f84b2f0b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Landing_Screen/Screen04/QuitBtn.png using Guid(27765acff2700c5419a8d8f84b2f0b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6050207cdf62621e2a1084fb4cb05d81') in 0.011825 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.169791 seconds.
+  path: Assets/_FD/Sprite/UserInterfaces/PopUp_PauseNSetting/RadioBtnFill.png
+  artifactKey: Guid(a0ed788991da5c743b02ed988bac37d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/UserInterfaces/PopUp_PauseNSetting/RadioBtnFill.png using Guid(a0ed788991da5c743b02ed988bac37d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23136c4727dd463efcd4d94991ed24cf') in 0.015863 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.075086 seconds.
+  path: Assets/_FD/Sprite/UserInterfaces/Ribbon.png
+  artifactKey: Guid(ea30ddb62e30e6449b579c99c29468b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/UserInterfaces/Ribbon.png using Guid(ea30ddb62e30e6449b579c99c29468b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b8532ba00a4d8ea3329dd0e56b32c7') in 0.021629 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 13.736388 seconds.
+  path: Assets/_FD/Sprite/Landing_Screen/Screen02/RibonOnly.png
+  artifactKey: Guid(b16172b2616290a4a88835341693af72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Landing_Screen/Screen02/RibonOnly.png using Guid(b16172b2616290a4a88835341693af72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '847057a3f24cd1ae20026ffca6fe0b18') in 0.052923 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_FD/Sprite/Enemy/Mini Warrior/skeleton-Attack_06.png
+  artifactKey: Guid(a370a9207227485448fa4eb34e0645f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Mini Warrior/skeleton-Attack_06.png using Guid(a370a9207227485448fa4eb34e0645f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62a31d38589bf9d2d77bd69004a7e23e') in 0.016052 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/_FD/Sprite/Enemy/Mini Gunner/skeleton-Attack_06.png
+  artifactKey: Guid(035356508b46a464f83e3410b642c1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Mini Gunner/skeleton-Attack_06.png using Guid(035356508b46a464f83e3410b642c1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '894ccd752ec98c382b5bee466262038a') in 0.015129 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_FD/Sprite/Enemy/Flying One Eye/skeleton-Attack_07.png
+  artifactKey: Guid(57901af43beeebc4198db754b593dd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Flying One Eye/skeleton-Attack_07.png using Guid(57901af43beeebc4198db754b593dd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eed08bee22f4aef1b96f51a2d275c05') in 0.019735 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001822 seconds.
+  path: Assets/_FD/Sprite/Enemy/Mini Warrior/skeleton-Death_04.png
+  artifactKey: Guid(cbc9319e596fe5742bb5fbad973ca157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Mini Warrior/skeleton-Death_04.png using Guid(cbc9319e596fe5742bb5fbad973ca157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ae71f57bff18dc7f0dd608bc88b46b0') in 0.016164 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_FD/Sprite/Enemy/Evil Wolf/skeleton-Death_04.png
+  artifactKey: Guid(4645257cb52e8a34e8755c084d13666a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Evil Wolf/skeleton-Death_04.png using Guid(4645257cb52e8a34e8755c084d13666a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c4bbf98212e12e187b05e3b9273d6b') in 0.025723 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_FD/Sprite/Enemy/Hunman warrior/skeleton-GetHit_05.png
+  artifactKey: Guid(c8deb9d4b730b4a449c0fa2cd09de9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Hunman warrior/skeleton-GetHit_05.png using Guid(c8deb9d4b730b4a449c0fa2cd09de9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39199417d64ff6888a1f171e41e3c644') in 0.020163 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_FD/Sprite/Enemy/Flying One Eye/skeleton-GetHit_5.png
+  artifactKey: Guid(3345e7abb290ad940b6bd9fed4c799c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Flying One Eye/skeleton-GetHit_5.png using Guid(3345e7abb290ad940b6bd9fed4c799c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4729bb3dcdc1c02423a670caa281f2b5') in 0.020692 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_FD/Sprite/Enemy/Snail Raider/skeleton-Death_04.png
+  artifactKey: Guid(53e9c776b237d8b40b569eee21ec8fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Snail Raider/skeleton-Death_04.png using Guid(53e9c776b237d8b40b569eee21ec8fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4028d0fa1c7e289d315682de1e3b29b0') in 0.027547 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_FD/Sprite/Enemy/Mini Warrior/skeleton-Walk_07.png
+  artifactKey: Guid(219424bf628a674418a905a077c74b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Mini Warrior/skeleton-Walk_07.png using Guid(219424bf628a674418a905a077c74b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb97164031bc1d35ad51d16a39ffd03') in 0.018214 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_FD/Sprite/Enemy/Flying One Eye/skeleton-Walk_07.png
+  artifactKey: Guid(3f25a0a262cdb894ead08fa7c2bd85d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Flying One Eye/skeleton-Walk_07.png using Guid(3f25a0a262cdb894ead08fa7c2bd85d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d4ece2b983a4d541754591003fafe3') in 0.014422 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_FD/Sprite/Enemy/Mini Warrior/skeleton-Death_05.png
+  artifactKey: Guid(a4ca3bf385ca19a428fcd86c8d7b262b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Mini Warrior/skeleton-Death_05.png using Guid(a4ca3bf385ca19a428fcd86c8d7b262b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db306c03fbff00107d6b27d70ac231da') in 0.012703 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_FD/Sprite/Enemy/Mini Warrior/skeleton-GetHit_5.png
+  artifactKey: Guid(105ee8b94d4287e4da5b9112ec61c4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Mini Warrior/skeleton-GetHit_5.png using Guid(105ee8b94d4287e4da5b9112ec61c4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bbbee49d36b89306d538650dda9ac70') in 0.012063 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_FD/Sprite/UI/User interfaces/Shop_icon.png
+  artifactKey: Guid(7a0a7df8148695d45ac7b1d68d1952a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/UI/User interfaces/Shop_icon.png using Guid(7a0a7df8148695d45ac7b1d68d1952a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c2986fd0e506fa666161587d4e9dc5') in 0.011196 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_FD/Sprite/Enemy/Mini Gunner/skeleton-Walk_08.png
+  artifactKey: Guid(6752ef50786d6cb4d97981f2a271d08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Mini Gunner/skeleton-Walk_08.png using Guid(6752ef50786d6cb4d97981f2a271d08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d9ac17dcafe2e01cb49a0dc3c854c9') in 0.012489 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_FD/Sprite/UI/User interfaces/Scroll_bar01.png
+  artifactKey: Guid(be4bc5a648190c64e9ffa4d261b2a6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/UI/User interfaces/Scroll_bar01.png using Guid(be4bc5a648190c64e9ffa4d261b2a6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d2a79fd6cbd62ea1eeb4081edc5b5e7') in 0.015379 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_FD/Sprite/Enemy/Big Warrior Man/skeleton-Walk_08.png
+  artifactKey: Guid(95c67dcf36caed34c90aee5c203f52ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Big Warrior Man/skeleton-Walk_08.png using Guid(95c67dcf36caed34c90aee5c203f52ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be90c493d23e6735531f4efd8fe2e3a1') in 0.028728 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_FD/Sprite/Enemy/Snail Raider/skeleton-GetHit_05.png
+  artifactKey: Guid(9c99e6c88725a7e4db28b4d53410bd69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Snail Raider/skeleton-GetHit_05.png using Guid(9c99e6c88725a7e4db28b4d53410bd69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de8099ebe971cacbbee284fd3e5c5b3') in 0.021077 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_FD/Sprite/UI/User interfaces/Shopping_Box.png
+  artifactKey: Guid(490852a1f8b1fd5499b7e74859f54191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/UI/User interfaces/Shopping_Box.png using Guid(490852a1f8b1fd5499b7e74859f54191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2612f1a3efb875c5d8d16b4d53be1d95') in 0.035832 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 38.914566 seconds.
+  path: Assets/_FD/Prefab/MIAOZIDONGMANTI-REGULAR SDF.asset
+  artifactKey: Guid(27924b0b2da8b2a46b564b76aff4dde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Prefab/MIAOZIDONGMANTI-REGULAR SDF.asset using Guid(27924b0b2da8b2a46b564b76aff4dde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4132338d74e48841021eaafb64f82cc') in 0.045517 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 11.886566 seconds.
+  path: Assets/_FD/Sprite/UI/User interfaces/EmptyChecklist_box.png
+  artifactKey: Guid(3a34f94b196c0e14f9e83d3e0c0c2870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/UI/User interfaces/EmptyChecklist_box.png using Guid(3a34f94b196c0e14f9e83d3e0c0c2870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e945cecdd015ba30b89e39357cebb168') in 0.019193 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_FD/Sprite/UserInterfaces/WinLosePOPUP/FB_Icon.png
+  artifactKey: Guid(a571689613eef714faba05d16b0a13d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/UserInterfaces/WinLosePOPUP/FB_Icon.png using Guid(a571689613eef714faba05d16b0a13d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40960adcad7b1c02a1263e39403bae8c') in 0.016083 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 71.324239 seconds.
+  path: Assets/_FD/Sprite/UserInterfaces/WinLosePOPUP/ScoreBOx.png
+  artifactKey: Guid(2ba8e6d64be11964a9d4c5a5d3e41d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/UserInterfaces/WinLosePOPUP/ScoreBOx.png using Guid(2ba8e6d64be11964a9d4c5a5d3e41d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f59e59335671d3874dc6298745149c1f') in 0.026715 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014075 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.182 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2183ms)
+		BeginReloadAssembly (230ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (1811ms)
+			LoadAssemblies (150ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (407ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (1133ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (38ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (787ms)
+				ProcessInitializeOnLoadMethodAttributes (199ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4167 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (23.0 KB). Loaded Objects now: 4772.
+Memory consumption went from 147.3 MB to 147.3 MB.
+Total: 10.184900 ms (FindLiveObjects: 0.650200 ms CreateObjectMapping: 0.487900 ms MarkObjects: 9.005800 ms  DeleteObjects: 0.039500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 113.127684 seconds.
+  path: Assets/_FD/Sprite/Enemy/Snail Raider/skeleton-Attack_00.png
+  artifactKey: Guid(03c0f9ecb5763a64b9682dcd86709dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Snail Raider/skeleton-Attack_00.png using Guid(03c0f9ecb5763a64b9682dcd86709dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27fa28c469a7dfef79a0439a9a705f5') in 0.102168 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.233981 seconds.
+  path: Assets/_FD/Sprite/Enemy/Pig/skeleton-Attack_00.png
+  artifactKey: Guid(f3d27c83e3d33d5419fbcf4e2d3b09d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Pig/skeleton-Attack_00.png using Guid(f3d27c83e3d33d5419fbcf4e2d3b09d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e8f8038a14eea2c0727d19fad978ec0') in 0.031832 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_FD/Sprite/Enemy/Viking Header/skeleton-Attack_00.png
+  artifactKey: Guid(e06b4d9efc2b64d48b2396cde52af2c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Viking Header/skeleton-Attack_00.png using Guid(e06b4d9efc2b64d48b2396cde52af2c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187df28aa3c82667bade6dced4ca79fd') in 0.034562 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.031200 seconds.
+  path: Assets/_FD/Sprite/Enemy/Big Warrior Man/skeleton-Attack_00.png
+  artifactKey: Guid(1f6bd1bb366005b4da68cd5a21b4bf09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Big Warrior Man/skeleton-Attack_00.png using Guid(1f6bd1bb366005b4da68cd5a21b4bf09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f6183893ffb1a00f670f3ba14249bcf') in 0.066191 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.120071 seconds.
+  path: Assets/_FD/Sprite/Enemy/Throw Bomber/skeleton-Attack_0.png
+  artifactKey: Guid(080b130ced0f5f2449cf766630eeb60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Throw Bomber/skeleton-Attack_0.png using Guid(080b130ced0f5f2449cf766630eeb60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac66f74d4a9b78ab749762b0a41472c') in 0.019484 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_FD/Sprite/Enemy/Hunman warrior/skeleton-Attack_01.png
+  artifactKey: Guid(55ea1858d1056bc4e821b3d8342aa89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Hunman warrior/skeleton-Attack_01.png using Guid(55ea1858d1056bc4e821b3d8342aa89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbde1b50a97f55b1c1d695fb52bee1cc') in 0.020258 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_FD/Sprite/Enemy/Big Warrior Man/skeleton-Attack_01.png
+  artifactKey: Guid(13289137fe050f343be118235c7a3729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Big Warrior Man/skeleton-Attack_01.png using Guid(13289137fe050f343be118235c7a3729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7327e3423a7f7fd50bf0f1825badeb33') in 0.031571 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.004718 seconds.
+  path: Assets/_FD/Sprite/Enemy/Evil Wolf/skeleton-Attack_01.png
+  artifactKey: Guid(d472a3b9141239349b37d583a968681f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Evil Wolf/skeleton-Attack_01.png using Guid(d472a3b9141239349b37d583a968681f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6633719f200949554cca139a7f0229') in 0.025713 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.123592 seconds.
+  path: Assets/_FD/Sprite/Enemy/Mini Gunner/skeleton-Attack_01.png
+  artifactKey: Guid(6ab6d471abe24ee46a66392af36a43be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Mini Gunner/skeleton-Attack_01.png using Guid(6ab6d471abe24ee46a66392af36a43be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '615bd96f8a287b8d0c7c56bdb18f1b85') in 0.010497 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.047250 seconds.
+  path: Assets/_FD/Sprite/Enemy/Snail Raider/skeleton-Attack_01.png
+  artifactKey: Guid(d6e2905aefbb67848ae52c284635f161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Snail Raider/skeleton-Attack_01.png using Guid(d6e2905aefbb67848ae52c284635f161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '562ae58d384be1eed30c02a54fc8668e') in 0.031628 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.139914 seconds.
+  path: Assets/_FD/Sprite/Enemy/Undead warrior/skeleton-Attack_01.png
+  artifactKey: Guid(c187476c65f677d409807ecca07fb4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Undead warrior/skeleton-Attack_01.png using Guid(c187476c65f677d409807ecca07fb4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9390d46ff612cb26f5c4ca10d493e65e') in 0.021626 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/_FD/Sprite/Enemy/Hunman warrior/skeleton-Attack_02.png
+  artifactKey: Guid(4794f8bbe0f2e3d4f9abf4a469d86147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Hunman warrior/skeleton-Attack_02.png using Guid(4794f8bbe0f2e3d4f9abf4a469d86147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55126e57aaeaaecbb681e122e6f3fca') in 0.019651 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.043738 seconds.
+  path: Assets/_FD/Sprite/Enemy/Flying One Eye/skeleton-Attack_02.png
+  artifactKey: Guid(4aec00c192ebd394599fdaaea0d740af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Flying One Eye/skeleton-Attack_02.png using Guid(4aec00c192ebd394599fdaaea0d740af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95df696812733239bda514e9d230dd1b') in 0.015368 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_FD/Sprite/Enemy/Mini Gunner/skeleton-Attack_02.png
+  artifactKey: Guid(43924a94e05701e4891e5d3d900d40cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Mini Gunner/skeleton-Attack_02.png using Guid(43924a94e05701e4891e5d3d900d40cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee55a81ab3e115d723a23c7f1702d26') in 0.017032 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.443228 seconds.
+  path: Assets/_FD/Sprite/Enemy/Evil Wolf/skeleton-Attack_03.png
+  artifactKey: Guid(71ed1efbe6f64d645a0ecc4ec068cbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Evil Wolf/skeleton-Attack_03.png using Guid(71ed1efbe6f64d645a0ecc4ec068cbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec929e7a007175dcd2a7a1b81c1d337') in 0.028928 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001627 seconds.
+  path: Assets/_FD/Sprite/Enemy/Undead warrior/skeleton-Attack_04.png
+  artifactKey: Guid(75e2d0b627f92d743b8f85090e0dbbdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Undead warrior/skeleton-Attack_04.png using Guid(75e2d0b627f92d743b8f85090e0dbbdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183d28ddd80d2447137928a68e9f42bb') in 0.027379 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_FD/Sprite/Enemy/Mini Gunner/skeleton-Attack_04.png
+  artifactKey: Guid(d1ae54e4f90d5f94187b56922641855a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Mini Gunner/skeleton-Attack_04.png using Guid(d1ae54e4f90d5f94187b56922641855a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8133b9786c87c0795bf4f85be0027cbd') in 0.011947 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_FD/Sprite/Enemy/Mini Warrior/skeleton-Attack_04.png
+  artifactKey: Guid(cb6b01df1c6ffce48892e2ecf12c1904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Mini Warrior/skeleton-Attack_04.png using Guid(cb6b01df1c6ffce48892e2ecf12c1904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31dc33b7e2413d82112effac60749ae2') in 0.013775 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_FD/Sprite/Enemy/Evil Wolf/skeleton-Attack_15.png
+  artifactKey: Guid(e87d7e981892cc643b938bb93628c58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Evil Wolf/skeleton-Attack_15.png using Guid(e87d7e981892cc643b938bb93628c58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2df2b3a3273eaa1e28b493aa817ac3') in 0.026169 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_FD/Sprite/Enemy/Throw Bomber/skeleton-Death_12.png
+  artifactKey: Guid(c527f009374c761479b591a563562c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Throw Bomber/skeleton-Death_12.png using Guid(c527f009374c761479b591a563562c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d00cecc89f35ed33add293d6fda338c') in 0.017064 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_FD/Sprite/Enemy/Big Warrior Man/skeleton-Death_12.png
+  artifactKey: Guid(6fa119a04e34c674c99af656749ab6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Big Warrior Man/skeleton-Death_12.png using Guid(6fa119a04e34c674c99af656749ab6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7852d9fab68f7054648e30fd31ce3a7') in 0.037482 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_FD/Sprite/Enemy/Evil Wolf/skeleton-GetFreez_1.png
+  artifactKey: Guid(ebbefa2bf2561604ab4d59e9663e8ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Evil Wolf/skeleton-GetFreez_1.png using Guid(ebbefa2bf2561604ab4d59e9663e8ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f5ce03b261cf3f31a48c89db296327d') in 0.020473 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_FD/Sprite/Enemy/Hunman warrior/skeleton-GetFreez_1.png
+  artifactKey: Guid(7cd08a12e66222848a27f679697a0911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Hunman warrior/skeleton-GetFreez_1.png using Guid(7cd08a12e66222848a27f679697a0911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4942303be4da949d9141aa56ca51cca8') in 0.018605 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_FD/Sprite/Enemy/Mini Gunner/skeleton-GetPoisoned_09.png
+  artifactKey: Guid(db48c4ab3e4c5594387dfbdff08a4fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Mini Gunner/skeleton-GetPoisoned_09.png using Guid(db48c4ab3e4c5594387dfbdff08a4fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b06686826f88cf0affb34f58bb2567') in 0.012643 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_FD/Sprite/Enemy/Evil Wolf/skeleton-Death_13.png
+  artifactKey: Guid(7430be50e686c684c926bf7ece9d7020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Evil Wolf/skeleton-Death_13.png using Guid(7430be50e686c684c926bf7ece9d7020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdfd526445cc20bfbd4b411249c20acb') in 0.020448 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_FD/Sprite/Enemy/Mini Gunner/skeleton-Walk_07.png
+  artifactKey: Guid(100e795eecc4f754883b06063eddf150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Mini Gunner/skeleton-Walk_07.png using Guid(100e795eecc4f754883b06063eddf150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf4436d8ba0f5b571a5d96c4a1e4764f') in 0.012124 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_FD/Sprite/Enemy/Undead warrior/skeleton-GetPoisoned_09.png
+  artifactKey: Guid(ba4ffd2f1bc276f43bbdf662856f223d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Undead warrior/skeleton-GetPoisoned_09.png using Guid(ba4ffd2f1bc276f43bbdf662856f223d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d3c2202da9ebe947fe6f817935e6f8b') in 0.011166 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_FD/Sprite/Enemy/Big Warrior Man/skeleton-Attack_15.png
+  artifactKey: Guid(91b036028fd96d24497e3805d3835742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Big Warrior Man/skeleton-Attack_15.png using Guid(91b036028fd96d24497e3805d3835742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df2a7b9b338ebd2bee8c6a1ed1af5cb') in 0.033228 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_FD/Sprite/Enemy/Flying One Eye/skeleton-GetFreez_1.png
+  artifactKey: Guid(15224dfb483e090418ce600c17bbad35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Flying One Eye/skeleton-GetFreez_1.png using Guid(15224dfb483e090418ce600c17bbad35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b6c928068783cf95b1b85e2d936a0ff') in 0.013685 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_FD/Sprite/Enemy/Pig/skeleton-Attack_11.png
+  artifactKey: Guid(501f56705c72e584dae92291989b38a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Pig/skeleton-Attack_11.png using Guid(501f56705c72e584dae92291989b38a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faab7bcf3dba788041a39d02dc8287c6') in 0.022206 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_FD/Sprite/Enemy/Mini Gunner/skeleton-GetFreez_1.png
+  artifactKey: Guid(3f5dfe2ee82c8a84bb8692aee12817a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Mini Gunner/skeleton-GetFreez_1.png using Guid(3f5dfe2ee82c8a84bb8692aee12817a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14aa8dd515e92da7f47a461d38aff203') in 0.015287 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_FD/Sprite/Enemy/Viking Header/skeleton-GetPoisoned_10.png
+  artifactKey: Guid(879d8b936acd64240bcbf58b6ddb13de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Viking Header/skeleton-GetPoisoned_10.png using Guid(879d8b936acd64240bcbf58b6ddb13de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa32c1f9c0dceefe26e63c6dc1aa15c6') in 0.025257 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_FD/Sprite/Enemy/Big Warrior Man/skeleton-Attack_16.png
+  artifactKey: Guid(6600184db552c664494b7606254afed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Big Warrior Man/skeleton-Attack_16.png using Guid(6600184db552c664494b7606254afed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1481ff8b5447a17e64f4571092bf084') in 0.036757 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_FD/Sprite/Enemy/Mini Warrior/skeleton-GetPoisoned_09.png
+  artifactKey: Guid(f00b4822b82c7e9419400781c6c051f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Mini Warrior/skeleton-GetPoisoned_09.png using Guid(f00b4822b82c7e9419400781c6c051f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ec4655bb28551972f1e1a133c78e259') in 0.015791 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_FD/Sprite/Enemy/Undead warrior/skeleton-Death_13.png
+  artifactKey: Guid(9681aa3cfd36f364fb01e025d71123e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Undead warrior/skeleton-Death_13.png using Guid(9681aa3cfd36f364fb01e025d71123e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573f50ff97c2bc53eb81040156aa0b19') in 0.013112 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_FD/Sprite/Enemy/Snail Raider/skeleton-GetFreez_1.png
+  artifactKey: Guid(4929faee11c5a0b4394534859a862706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Snail Raider/skeleton-GetFreez_1.png using Guid(4929faee11c5a0b4394534859a862706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e21a0015f3fc3a230ac380672da04154') in 0.020047 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_FD/Sprite/Enemy/Throw Bomber/skeleton-GetFreez_1.png
+  artifactKey: Guid(0a09c4823e5b1114b8488e7e8b977c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Throw Bomber/skeleton-GetFreez_1.png using Guid(0a09c4823e5b1114b8488e7e8b977c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '038f2af9ddd104a7c1ca017416f4d28f') in 0.012356 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_FD/Sprite/Enemy/Snail Raider/skeleton-Death_12.png
+  artifactKey: Guid(1dc204147443a364caff73569a9cf5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Snail Raider/skeleton-Death_12.png using Guid(1dc204147443a364caff73569a9cf5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb90ec931b5e0ac48a6e767b6bbeea77') in 0.014733 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_FD/Sprite/Enemy/Big Warrior Man/skeleton-GetFreez_1.png
+  artifactKey: Guid(833a0565d4607d84488fe1fc96619045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Big Warrior Man/skeleton-GetFreez_1.png using Guid(833a0565d4607d84488fe1fc96619045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d7bc43af2f29440b949f598d6061b27') in 0.021732 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_FD/Sprite/Enemy/Flying One Eye/skeleton-GetPoisoned_09.png
+  artifactKey: Guid(62099ad4725226844b73e0bbae76b429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/_FD/Sprite/Enemy/Flying One Eye/skeleton-GetPoisoned_09.png using Guid(62099ad4725226844b73e0bbae76b429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd717589a43c76cc07437efaa00fa0438') in 0.012379 seconds 
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
