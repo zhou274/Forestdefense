@@ -24565,7 +24565,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "2.\u70B9\u51FB\u68EE\u6797\u653B\u9632"
+  m_text: "2.\u70B9\u51FB\u68EE\u6797\u9632\u7EBF"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3d16d2540a609d8449aa646c43f6f922, type: 2}
   m_sharedMaterial: {fileID: 2324178611099548476, guid: 3d16d2540a609d8449aa646c43f6f922,

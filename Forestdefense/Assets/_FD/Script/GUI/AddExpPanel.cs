@@ -22,7 +22,7 @@ public class AddExpPanel : MonoBehaviour
     }
     public void AddExpByWatch()
     {
-        ShowVideoAd("192if3b93qo6991ed0",
+        ShowVideoAd("g5g63eqpj682r2etv6",
             (bol) => {
                 if (bol)
                 {

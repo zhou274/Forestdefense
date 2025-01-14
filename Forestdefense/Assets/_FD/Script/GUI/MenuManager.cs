@@ -120,9 +120,8 @@ public class MenuManager : MonoBehaviour, IListener
         UI.SetActive(false);
         yield return new WaitForSeconds(1.5f);
         VictotyUI.SetActive(true);
-        ShowInterstitialAd("1lcaf5895d5l1293dc",
+        ShowInterstitialAd("46r27p1jqqq17ob8oo",
             () => {
-                Debug.LogError("--插屏广告完成--");
 
             },
             (it, str) => {
@@ -152,9 +151,8 @@ public class MenuManager : MonoBehaviour, IListener
 
         yield return new WaitForSeconds(1.5f);
         FailUI.SetActive(true);
-        ShowInterstitialAd("1lcaf5895d5l1293dc",
+        ShowInterstitialAd("46r27p1jqqq17ob8oo",
             () => {
-                Debug.LogError("--插屏广告完成--");
 
             },
             (it, str) => {
